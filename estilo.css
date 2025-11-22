@@ -1,0 +1,138 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.container-menu{
+    background-image: linear-gradient(to right, black, rgb(65, 12, 65));
+    width: 100%;
+    height: 150px;
+    padding: 0px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    font-size: 16pt;
+    
+}
+
+
+body{
+    background-color: lightgrey;
+}
+
+
+
+h1{
+    text-align: center;
+    color: rgb(80, 26, 97);
+    margin-top: 120px;
+
+}
+
+
+    
+
+h2{
+    background-image: linear-gradient(to right, black, rgb(65, 12, 65));
+    /*background-color: rgba(250, 250, 250, 0.986);*/
+    color: white;
+    padding: 10px;
+    width: 800px;
+    height: 200px;
+    text-align: justify;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+.lista-nav{
+    overflow: hidden;
+}
+.lista-nav .item-nav{
+    
+    float: left;
+}
+.lista-nav .item-nav .link-nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.link-nav:hover{
+    border-bottom: 4px solid #f0eff0;
+
+}
+
+.container-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+
+.folder-supermercado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+    margin-top: 40px;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+    margin-top: 40px;
+}
+.item-galeria{
+    width: 480px;
+    height: 625px;
+    border: 5px  solid black;
+    box-shadow: 5px 5px 5px black;
+    margin: 0;
+    padding: 0;
+}
+.item-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main{
+    margin-top: 30px;
+}
+
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+   
+
+}
+.item-foto{
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.item-foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sobre{
+    display: flex;
+    justify-content:center;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <title>Portfólio Designer Gráfico</title>
 </head>
 <body>
@@ -14,9 +15,9 @@
             <ul class="lista-nav">
                 <li class="item-nav"><a class="link-nav" href="#sessao-sobremim">Sobre</a></li>
                 <li class="item-nav"><a class="link-nav" href="#Projetos">Projetos</a></li>
-                <li class="item-nav"><a class="link-nav" href="#Contato">Contatos</a></li>
                 <li class="item-nav"><a class="link-nav" href="#folheto">Folheto Supermercado</a></li>
                 <li class="item-nav"><a class="link-nav" href="#logotipo">Logotipo</a></li>
+                <li class="item-nav"><a class="link-nav" href="#Contato">Contatos</a></li>
             </ul>
         </nav>
     </div><br><br>
@@ -60,42 +61,74 @@
     
 
 
-    <main>
-        <div class="container-galeria" id="Projetos">
-
-            
+    <section  id="Projetos">
             <h1 class="animate__animated animate__bounce animate__bounceInUp">Flayer Digital:</h1>
+        <div class="container-galeria">
 
-            
-
-            
             <a href="imagens/hambueguer do batata.png" class="item-galeria"><img src="imagens/hambueguer do batata.png" alt="batata burguer"></a>
             <a href="imagens/promocao.png" class="item-galeria"><img src="imagens/promocao.png" alt="hamburguer e fritas com refri lata"></a>
             <a href="imagens/sushi bomba.png" class="item-galeria"><img src="imagens/sushi bomba.png" alt="sushi explosivo"></a>
 
         </div>
-    </main>
-
-    <section class="folder-supermercado" id="folheto">
+    </section>
         
+    
+
+    <section  id="folheto">
         <h1 class="animate__animated animate__bounce animate__bounceInUp">Folheto para Supermercado</h1>
 
-        <img src="imagens/Abelinha.png" class="item-galeria" alt="atacadao do abelinha">
+        <div class="folder-supermercado">
+       
+            <img src="imagens/Abelinha.png" class="item-galeria" alt="atacadao do abelinha">
 
+        </div>
+        
     </section>
 
-    <section class="logo" id="logotipo">
+    <section  id="logotipo">
+        <h1 class="animate__animated animate__bounce animate__bounceInUp">Identidade Visual:</h1>
 
-        <h1 class="animate__animated animate__bounce animate__bounceInUp">Logotipo/Logomarca:</h1>
+        <div class="logo">
+            <img src="imagens/dreamina-2025-10-15-8799-Tranforme essa imagem eu uma logo marca,....jpeg" class="item-galeria" alt="logo Designer">
+            <img src="imagens/logomarca.png" class="item-galeria" alt="logomarca">
+        </div>
 
-        <img src="imagens/dreamina-2025-10-15-8799-Tranforme essa imagem eu uma logo marca,....jpeg" class="item-galeria" alt="logo Designer">
-        <img src="imagens/logomarca.png" class="item-galeria" alt="logomarca">
+
+        
 
     </section>
 
     <section class="contato" id="Contato">
-         <h1 class="animate__animated animate__bounce animate__bounceInUp">Entre em contato comigo por aqui.</h1>
-        <a href="mailto:andersonfdl@gmail.com">andersonfdl@gmail.com</a>
+        <div class="interface">
+            <div class="txt-contato">
+                <h1 class="animate__animated animate__bounce animate__bounceInUp">Entre em contato comigo por aqui.</h1>
+                 <a href="mailto:andersonfdl@gmail.com"><i class="bi bi-envelope-at"></i> andersonfdl@gmail.com</a>
+                <p><i class="bi bi-whatsapp"></i> (51) 98050-9482</p>
+                <a href="https://www.linkedin.com/in/anderson-souza-169461264/"><i class="bi bi-linkedin"></i> Anderson Souza</a>
+                <a href="https://github.com/andersonsouzacardoso"><i class="bi bi-github"></i> Anderson Souza</a>    
+            </div> 
+           
+            <form action="#">
+                <input type="text" id="name" placeholder="Digite Seu nome Aqui">
+                <input type="email" name="#" id="email" placeholder="Digite seu email">
+                <div class="tel-serv">
+                    <input type="tel" name="#" id="whatsapp" placeholder="Digite aqui seu WhatsApp">
+                    <select name="#" id="projeto">
+                        <option value="">--Selecione--</option>
+                        <option value="Flayer">Flyer Digital</option>
+                        <option value="Folheto">Folheto para Supermercado</option>
+                        <option value="Logotipo">Identidade Visual</option>
+                    </select>
+                    
+                    
+                </div>
+                    <textarea name="#" id="descreva" placeholder="Descreva o que você gostaria de criar..."></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+            </form>
+             
+         </div>
     </section>
 </body>
 <script src="magica.js"></script>

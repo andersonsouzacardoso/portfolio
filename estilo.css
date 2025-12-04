@@ -202,7 +202,7 @@ section.contato{
     gap: 16px;
     margin: 16px 0;
 }
-.contato .txt-contato a{
+.contato .txt-contato a, footer .txt-contato{
     color: black;
     font-size: 2rem;
      display: flex;
@@ -254,4 +254,18 @@ i{
     transition: 2s;
 } .contato .txt-contato > h1{
     margin: 0;
+}
+/*estilizando o footer*/
+footer{
+    padding: 40px 0;
+    background-image: linear-gradient(to right, black, rgb(65, 12, 65));
+}
+footer > .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .logo-rodape{
+    font-size: 1.5rem;
+    color: white;
 }
